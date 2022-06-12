@@ -19,9 +19,12 @@ const Backoffice = ({ darkToken, setToken }) => {
     if (password) {
       setRequesting(true);
       try {
-        const response = await axios.post("http://localhost:4000/admin", {
-          password: password,
-        });
+        const response = await axios.post(
+          "https://tellmemore-back-kingx.herokuapp.com/admin",
+          {
+            password: password,
+          }
+        );
 
         if (response.data.token) {
           Cookies.set("adminToken", response.data.token, {
