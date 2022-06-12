@@ -1,0 +1,83 @@
+.backoffice-white {
+  min-height: 82vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: black;
+}
+
+.backoffice-dark {
+  min-height: 82vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #202124;
+  color: white;
+}
+
+.backoffice-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.backoffice-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.backoffice-input input {
+  width: 69%;
+  height: 40px;
+  border: 1px solid #66c08a;
+  border-radius: 5px;
+  text-indent: 8px;
+  background-color: #ebf9ed;
+  outline: none;
+  font-size: 16px;
+}
+
+.backoffice-input button {
+  width: 29%;
+  height: 42px;
+  border: 1px solid #66c08a;
+  border-radius: 4px;
+  background-color: #66c08a;
+  color: white;
+  font-weight: 800;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  font-size: 14px;
+}
+
+.backoffice-input button:hover {
+  background-color: white;
+  color: #66c08a;
+}
+
+.error-message {
+  margin-top: 5px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.error-message p {
+  color: red;
+}
+
+.done-message {
+  margin-top: 5px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.done-message p {
+  color: green;
+}

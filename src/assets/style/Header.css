@@ -1,0 +1,104 @@
+.header-dark {
+  background-color: #202124;
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+.header-dark > .header-items {
+  color: white;
+}
+
+.header-dark .header-logo a > h2 {
+  color: white;
+  font-size: 30px;
+}
+
+.header-white {
+  background-color: white;
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+.header-logo a {
+  text-decoration: none;
+}
+
+.header-logo-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-logo-items img {
+  padding: 5px;
+  margin-bottom: 2px;
+}
+
+.header-white .header-logo a > h2 {
+  color: black;
+  font-size: 30px;
+}
+
+.header-items {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 30px;
+}
+
+.header-buttons button {
+  background-color: #66c08a;
+  border: 2px solid #66c08a;
+  border-radius: 7px;
+  width: 130px;
+  height: 50px;
+  font-size: 18px;
+  color: white;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.header-buttons button:hover {
+  background-color: white;
+  color: #66c08a;
+}
+
+.darkmode-button {
+  margin-right: 5px;
+}
+
+.whitemode-button {
+  margin-right: 5px;
+}
+
+.active button {
+  background-color: white;
+  color: #66c08a;
+}
+
+#admin {
+  margin-right: 5px;
+}
+
+.active #admin {
+  background-color: white;
+  color: #66c08a;
+}
+
+#header-deconnection {
+  background-color: white;
+  border: 2px solid red;
+  color: red;
+}
+
+#header-deconnection:hover {
+  background-color: red;
+  border: 2px solid red;
+  color: white;
+}

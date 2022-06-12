@@ -1,0 +1,82 @@
+.admin-white {
+  min-height: 82vh;
+  color: black;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.admin-dark {
+  min-height: 82vh;
+  color: white;
+  background-color: #202124;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.admin-error-white {
+  background-color: white;
+  color: black;
+  min-height: 82vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.admin-error-dark {
+  background-color: #202124;
+  color: white;
+  min-height: 82vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.admin-error-gif {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 2px solid #66c08a;
+}
+
+.admin {
+  height: 70vh;
+  padding: 0 40px;
+  border-radius: 5px;
+  width: 90%;
+  border: 1px solid green;
+}
+
+.admin h2 {
+  color: #41684c;
+  font-size: 35px;
+  font-weight: 800;
+}
+
+.admin-form-button {
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  background: rgb(174, 221, 194);
+  background: linear-gradient(
+    90deg,
+    rgba(174, 221, 194, 1) 0%,
+    rgba(103, 193, 138, 1) 100%
+  );
+  width: 300px;
+  color: white;
+  font-weight: 800;
+}
+
+.admin-form-button p {
+  margin-top: 5px;
+}

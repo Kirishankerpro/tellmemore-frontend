@@ -1,0 +1,154 @@
+.backofficecreate-dark {
+  min-height: 82vh;
+  color: white;
+  background-color: #202124;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.backofficecreate-white {
+  min-height: 82vh;
+  color: black;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.backofficecreate-dark-error {
+  min-height: 82vh;
+  color: white;
+  background-color: #202124;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.backofficecreate-white-error {
+  min-height: 82vh;
+  color: black;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.backofficecreate-all {
+  min-height: 75vh;
+  width: 95%;
+}
+
+.backofficecreate-header {
+  display: flex;
+  flex-direction: row;
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.backoffice-header-buttons button {
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+.backofficecreate-header input {
+  border: 2px solid #66c08a;
+  width: 50%;
+  height: 40px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#backofficecreate-header-delete-button {
+  background-color: white;
+  border: 2px solid red;
+  color: red;
+}
+
+#backofficecreate-header-delete-button:hover {
+  background-color: red;
+  color: white;
+}
+
+#backofficecreate-header-save-button {
+  background-color: #66c08a;
+  border: 2px solid #66c08a;
+  color: white;
+  margin: 0 10px;
+}
+
+#backofficecreate-header-save-button:hover {
+  background-color: white;
+  color: #66c08a;
+}
+
+#backoffice-header-form-button {
+  margin-left: 5px;
+  text-decoration: none;
+  color: green;
+}
+
+#backoffice-header-form-button i {
+  margin-right: 5px;
+}
+
+.backoffice-body {
+  background-color: #ebf9ed;
+  min-height: 70vh;
+  border-radius: 5px;
+}
+
+.backoffice-body-header {
+  display: flex;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.backoffice-body-header p {
+  margin: 30px 10px;
+  color: black;
+}
+
+.backoffice-body-header :nth-child(2) {
+  color: #66c08a;
+}
+
+.backoffice-body-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.backoffice-body-buttons button {
+  height: 40px;
+  width: 22%;
+  border-radius: 5px;
+  border: 2px solid #66c08a;
+  background-color: white;
+  margin: 0 15px;
+  color: #66c08a;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.4s ease-in-out;
+}
+
+.backoffice-body-buttons button:hover {
+  background-color: #66c08a;
+  color: white;
+}
+
+.backoffice-body-buttons button i {
+  margin-right: 7px;
+}

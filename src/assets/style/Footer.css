@@ -1,0 +1,13 @@
+.footer {
+  background-color: #66c08a;
+  min-height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}

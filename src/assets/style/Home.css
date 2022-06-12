@@ -1,0 +1,30 @@
+/* whitemode */
+.home-white {
+  background-color: white;
+  min-height: 82vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-dark {
+  background-color: #202124;
+  min-height: 82vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-empty-items {
+  background-color: #ebf9ed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.home-empty-items-box {
+  justify-content: center;
+}
